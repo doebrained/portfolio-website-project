@@ -1,15 +1,12 @@
 body {
-    background-color: orange;
-    color: lightblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: whitesmoke;
 }
 
-#the_text {
-    background-color: blue;
-    height: fit-content;
-    width: fit-content;
+#main_text h1 {
+    text-align: center;
 }
-
-h1 {
-    font-family: fantasy;
+#main_text img {
+    display: block;
+    margin: auto;
 }
-
