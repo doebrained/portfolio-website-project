@@ -9,4 +9,5 @@ body {
 #main_text img {
     display: block;
     margin: auto;
+    border-radius: 20px;
 }

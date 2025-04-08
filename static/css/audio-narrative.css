@@ -3,6 +3,10 @@ body {
     background-color: whitesmoke;
 }
 
-#title_and_details{
+#title_and_details {
     text-align: center;
+}
+
+#title_and_details img {
+    border-radius: 20px;
 }
