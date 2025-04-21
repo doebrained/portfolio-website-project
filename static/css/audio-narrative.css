@@ -2,11 +2,27 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: whitesmoke;
 }
+p {
+    font-size: large;
+}
+a {
+    font-size: large;
+}
+
+fieldset {
+    border: 1px solid #666;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #666;
+}
+legend {
+    margin: 0px;
+    padding: 0px;
+    background: whitesmoke;
+}
 
 #title_and_details {
     text-align: center;
 }
-
 #title_and_details img {
     border-radius: 20px;
 }
