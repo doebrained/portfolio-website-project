@@ -1,16 +1,15 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: whitesmoke;
+    border: 1px solid #666;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #666;
 }
-p {
-    font-size: large;
-}
-a {
+p, a {
     font-size: large;
 }
 
 #top_of_page {
-    background-color: blueviolet;
     height: 15%;
 }
 #top_of_page h1 {
@@ -20,29 +19,31 @@ a {
 }
 
 #image {
-    background-color: orange;
-    width: 40%;
-    height: 85%;
+    width: 39%;
+    height: 82%;
     float: left;
+    border-right: black solid 1px;
 }
 #image img {
     display: block;
-    margin-left: 30%;
+    margin-left: 20%;
     margin-top: 7%;
     border-radius: 20px;
 }
 
 #text_and_links {
-    background-color: indianred;
     width: 60%;
-    height: 85%;
+    height: 74%;
     float: left;
+    padding-top: 2%;
 }
 #text_and_links p {
     width: 80%;
     margin: auto;
-    margin-top: 25%;
 }
 #text_and_links ul {
     margin-left: 8%;
+}
+#text_and_links h3 {
+    padding-left: 10%;
 }

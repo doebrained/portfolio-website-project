@@ -1,11 +1,8 @@
 body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: whitesmoke;
+    background-color: lightgray;
 }
-p {
-    font-size: large;
-}
-a {
+p, a {
     font-size: large;
 }
 
@@ -13,12 +10,18 @@ fieldset {
     border: 1px solid #666;
     border-radius: 8px;
     box-shadow: 0 0 10px #666;
+    background-color: whitesmoke;
+    padding-left: 2%;
+    padding-right: 2%;
 }
-legend {
-    margin: 0;
-    background: blue;
+#main_text h2 {
+    padding: 3px;
+    background: whitesmoke;
+    border: 1px solid #666;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #666;
 }
 
-#title_and_details{
+#title_and_details {
     text-align: center;
 }
